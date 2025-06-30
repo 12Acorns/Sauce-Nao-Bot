@@ -2,10 +2,11 @@ A basic discord bot that gets the sauce (source) of an image with the SauceNao A
 
 # How to use
 1. Clone repository
-2. Put all api related keys into .env (see .env template)
-3. Invite bot to your server
-4. Run: "npm run dev"
-5. Use command "/get-sauce [image]"
+2. Run "npm install dotenv" for .env
+3. Put all api related keys into .env (see .env template)
+4. Invite bot to your server
+5. Run: "npm run dev"
+6. Use command "/get-sauce [image]"
 
 # .env template
 ```
