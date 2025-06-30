@@ -1,0 +1,21 @@
+{
+  "name": "sauce-nao-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/node-fetch": "^2.6.12",
+    "tsx": "^4.19.3"
+  }
+}
